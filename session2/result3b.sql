@@ -1,7 +1,10 @@
-
-	SELECT a.pid FROM Acts a, Movie m
-	WHERE 
+SELECT a.pid 
+	FROM 
+		Acts a
+	JOIN 
+		Movie m
+	ON 
 		a.mid = m.mid
-	AND	
+	WHERE	
 		m.name = 'Back to the Future'
-	;
+;
