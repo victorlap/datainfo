@@ -1,0 +1,3 @@
+INSERT INTO F x, y, violation, motivation VALUES ("E",   "D",  true, "Met deze relatie kan je niet alle andere waarden bedenken, is geen superkey");
+INSERT INTO F x, y, violation, motivation VALUES ("D",   "A",  true, "Met deze relatie kan je niet alle andere waarden bedenken, is geen superkey, net als hierboven");
+INSERT INTO F x, y, violation, motivation VALUES ("ABC", "EF", true, "Met deze relatie en met E -> D kan men alle waarden vinden");
